@@ -1,0 +1,26 @@
+2025-05-04 15:01:10:110 ERROR [MessageProducerService]: Error queueing chat message: Error: Unknown operation type: undefined
+2025-05-04 15:01:10:110 ERROR [EnhancedChatService]: Failed to queue message for async processing: Error: Failed to queue chat message: Error: Unknown operation type: undefined
+2025-05-04 15:01:10:110 ERROR [MessageProducerService]: Error queueing summarization: Error: Unknown operation type: undefined
+2025-05-04 15:01:10:110 ERROR [SummaryService]: Error queueing summary generation via Kafka: Error: Failed to queue summarization: Error: Unknown operation type: undefined
+2025-05-04 16:14:14:1414 ERROR [MessageProducerService]: Failed to queue chat message to Kafka:
+2025-05-04 16:14:14:1414 ERROR [MessageProducerService]: Error during fallback synchronous processing:
+2025-05-04 16:14:14:1414 ERROR [TelegramBotService]: Error queueing message via Kafka for user telegram_443708698, session global-telegram_443708698:
+2025-05-04 16:15:41:1541 ERROR [KafkaService]: Error creating consumer for topics activity-operations:
+2025-05-04 16:15:41:1541 ERROR [MessageConsumerService]: Failed to start activity operations consumer: KafkaJSNumberOfRetriesExceeded: Connection timeout
+2025-05-04 16:15:41:1541 ERROR [MessageConsumerService]: Error starting consumers: KafkaJSNumberOfRetriesExceeded: Connection timeout
+2025-05-04 16:22:52:2252 ERROR [MessageProducerService]: Failed to queue chat message to Kafka:
+2025-05-04 16:22:52:2252 ERROR [MessageProducerService]: Error during fallback synchronous processing:
+2025-05-04 16:22:52:2252 ERROR [TelegramBotService]: Error queueing message via Kafka for user telegram_443708698, session global-telegram_443708698:
+2025-05-04 16:28:05:285 ERROR [EnhancedChatService]: Error saving message 3acc0838-5748-4f53-b029-8790edf9b234 to DB:
+2025-05-04 16:28:21:2821 ERROR [CompanionThinkingService]: Error analyzing content: TypeError: ai_service_1.aiService.getCompletion is not a function
+2025-05-04 16:30:25:3025 ERROR [EnhancedChatService]: Error saving message 09e7c91d-7228-4e55-8592-cb96b2939ce3 to DB:
+2025-05-04 16:30:32:3032 ERROR [CompanionThinkingService]: Error analyzing content: TypeError: ai_service_1.aiService.getCompletion is not a function
+2025-05-04 16:38:30:3830 ERROR [CompanionThinkingService]: Error in injectLatestThinking: ReferenceError: databaseService is not defined
+2025-05-04 16:40:40:4040 ERROR [CompanionThinkingService]: Error in injectLatestThinking: ReferenceError: databaseService is not defined
+2025-05-04 16:43:25:4325 ERROR [CompanionThinkingService]: Error in injectLatestThinking: ReferenceError: databaseService is not defined
+2025-05-04 16:43:51:4351 ERROR [EnhancedChatService]: Error saving message 0d8b68a5-0f85-4dd1-beda-10843a8e506b to DB:
+2025-05-04 16:43:51:4351 ERROR [CompanionThinkingService]: Error in injectLatestThinking: ReferenceError: databaseService is not defined
+2025-05-04 17:10:30:1030 ERROR [CompanionThinkingService]: Error in injectLatestThinking: ReferenceError: databaseService is not defined
+2025-05-04 17:11:37:1137 ERROR [CompanionThinkingService]: Error in injectLatestThinking: ReferenceError: databaseService is not defined
+2025-05-04 17:12:54:1254 ERROR [CompanionThinkingService]: Error in injectLatestThinking: ReferenceError: databaseService is not defined
+2025-05-04 17:17:31:1731 ERROR [CompanionThinkingService]: Error in injectLatestThinking: ReferenceError: databaseService is not defined
